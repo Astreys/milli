@@ -1,0 +1,21 @@
+/* header.less */
+
+.navbar-inverse {
+	background-color: @brand1;
+
+	.navbar-brand {
+		color: #333;
+	}
+
+	.navbar-nav>li>a{
+		color: #333;
+		font-family: "Yanone Kaffeesatz", sans-serif;
+		font-size: 1.5em;
+	}
+
+	.navbar-nav>.active>a,
+	.navbar-nav>.active>a:hover,
+	.navbar-nav>.active>a:focus{
+		background-color: darken(@brand1, 10%);
+	}
+}
